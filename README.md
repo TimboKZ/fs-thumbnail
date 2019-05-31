@@ -6,8 +6,11 @@ Node.js library that generates thumbnails for files in the file system.
 
 `fs-thumbnail` was designed for [Ogma](https://github.com/TimboKZ/Ogma). It generates thumbnails based on file system
 paths of files. It tries several different libraries and uses the best match to generate the thumbnail. Libraries used
-(the ones labelled as *peer dependency* must be installed separately):
-* **[sharp](https://github.com/lovell/sharp)** (peer dependency). Used for JPEG, PNG, WebP, TIFF, GIF and SVG images.
+for thumbnail generation are listed below. The ones labelled with *peer dependency* must be installed separately, either
+ using npm or your OS-specific package manager.
+* **[sharp](https://github.com/lovell/sharp)** (peer dependency: npm). Used for JPEG, PNG, WebP, TIFF, GIF and SVG
+images.
+* **[ffmpeg](https://ffmpeg.org/) (peer dependency: OS-specific). Used to generate video thumbnails.
 
 # Installing
 
