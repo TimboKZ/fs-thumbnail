@@ -4,5 +4,5 @@
  * @license LGPL-3.0
  */
 
-const ThumbnailManager = require('./lib/ThumbnailManager');
+const ThumbnailManager = require('./lib/ThumbnailGenerator');
 module.exports = ThumbnailManager;
