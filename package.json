@@ -1,0 +1,48 @@
+{
+  "name": "fs-thumbnail",
+  "version": "1.0.0",
+  "description": "Library for generation of thumbnails based on file system paths.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimboKZ/fs-thumbnail.git"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "thumbnail",
+    "filesystem",
+    "photo",
+    "picture",
+    "meta",
+    "graphics",
+    "promise",
+    "video"
+  ],
+  "author": {
+    "name": "Timur Kuzhagaliyev",
+    "email": "tim.kuzh@gmail.com",
+    "url": "https://foxypanda.me/"
+  },
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TimboKZ/fs-thumbnail/issues"
+  },
+  "homepage": "https://github.com/TimboKZ/fs-thumbnail#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "exact-trie": "^1.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "mocha": "^6.1.4"
+  },
+  "peerDependencies": {
+    "sharp": "0.x"
+  }
+}
