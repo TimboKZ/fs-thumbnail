@@ -30,7 +30,7 @@ apt install ffmpeg
 
 Now you can use the library:
 ```js
-const ThumbnailManager = require('./ThumbnailManager');
+const ThumbnailManager = require('fs-thumbnail');
 const thumbManager = new ThumbnailManager({
     verbose: true, // Whether to print out warning/errors
     size: [500, 300], // Default size, either a single number of an array of two numbers - [width, height].
