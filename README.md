@@ -10,7 +10,7 @@ for thumbnail generation are listed below. The ones labelled with *peer dependen
  using npm or your OS-specific package manager.
 * **[sharp](https://github.com/lovell/sharp)** (peer dependency: npm). Used for JPEG, PNG, WebP, TIFF, GIF and SVG
 images.
-* **[ffmpeg](https://ffmpeg.org/) (peer dependency: OS-specific). Used to generate video thumbnails.
+* **[ffmpeg](https://ffmpeg.org/)** (peer dependency: OS-specific). Used to generate video thumbnails.
 
 # Installing
 
