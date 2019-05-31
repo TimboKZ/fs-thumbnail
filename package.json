@@ -1,10 +1,10 @@
 {
   "name": "fs-thumbnail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library for generation of thumbnails based on file system paths.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive ./lib/"
+    "test": "node ./test/generator-test.js"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
   "homepage": "https://github.com/TimboKZ/fs-thumbnail#readme",
   "dependencies": {
     "bluebird": "^3.5.5",
-    "exact-trie": "^1.0.0",
+    "exact-trie": "^1.0.2",
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^8.0.1"
   },
