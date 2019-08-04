@@ -1,6 +1,6 @@
 {
   "name": "fs-thumbnail",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Library for generation of thumbnails based on file system paths.",
   "main": "index.js",
   "scripts": {

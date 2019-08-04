@@ -12,6 +12,9 @@ for thumbnail generation are listed below. The ones labelled with *peer dependen
 images.
 * **[ffmpeg](https://ffmpeg.org/)** (peer dependency: OS-specific). Used to generate video thumbnails.
 
+> If you want to request support for a specific file type, please
+> [create an issue](https://github.com/TimboKZ/fs-thumbnail/issues).
+
 # Installing
 
 Install the main package:
@@ -24,7 +27,8 @@ Install some subset of peer dependencies that is relevant to your project:
 # On all machines
 npm install sharp@0
 
-# On Debian/Ubuntu
+# Make `ffmpeg` command available in your PATH.
+# E.g. on Debian and Ubuntu you can run:
 apt install ffmpeg
 ```
 
@@ -40,8 +44,8 @@ const thumbGen = new ThumbnailGenerator({
 thumbGen.getThumbnail({
     path: '/path/to/my/image.png',
     output: '/thumbnail/folder/thumbnail.jpg',
-    size: 300,
-    quality: 70,
+    size: 300, // You can override the default size per thumbnail
+    quality: 70, // You can override the default quality per thumbnail
 })
     .then(thumbnailPath => {
         if (!thumbnailPath) console.log('Could not generate the thumbnail!');
